@@ -1,0 +1,26 @@
+Question:
+    Homework 1
+
+    Discuss in your teams what a decentralised version of a game like monopoly would be like,
+    if there was no software on a central server.
+
+    Consider
+        What are the essential pieces of functionality ?
+        How would people cheat ?
+        How could you prevent them from cheating ?
+
+    This is just a general discussion, there is no need to write any code or do any detailed
+    design.
+
+Answer:
+    The game would start when all the playerslog into and accept the terms, and each stake the same amount, eg $25 each to play the game
+    They would each be allotted the same amount in the games currency eg 2500 game coins
+    The players play each round simultaneuosly and the result of the round is revealed to all players when they have all completed the round
+    Round 1(the steps for each player):
+        Play chooses an amount to bid from their game coins
+        Player roles the dice and lands on a property
+        The result are shown to all players
+        If players initial bid matches or exceeds the cost of the title deed, property is automatically purchased for that player
+        If 2 players land on the same property, option to purchase goes to highest bid
+        If property belongs to a player, rent is taken from player on the property
+        If player lands on chance or community chest, result is revealed along with other players' results
